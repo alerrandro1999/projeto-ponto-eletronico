@@ -1,0 +1,378 @@
+ *{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+ }
+
+ body{
+     background: #fff;
+ }
+
+ img{
+     height: 100%;
+ }
+
+.header{
+    margin: 0 auto;
+    text-align: center;
+    background: #5D1AEA;
+    padding: 15px;
+    border-bottom: 2px solid #ED783C;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.9rem;
+    font-family: 'Dancing Script';
+    font-weight: 700;
+}
+
+.apresentacao{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.apresentacao-grupo{
+    text-align: center;
+}
+
+.apresentacao-grupo img{
+    width: 450px;
+}
+
+.apresentacao-texto{
+    margin: 80px 0 0px 0;
+    font-size: 3rem;
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    line-height: 1;
+    letter-spacing: 5px;
+    color: #5D1AEA;
+}
+
+.funcionaolidade-grupo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.apresentacao-funcionalidades{
+    background: #5D1AEA;
+    margin: 75px 60px;
+    padding: 20px;
+    flex: 1 1 150px;
+    text-align: center;
+    border-radius: 10px;
+    align-content: flex-end;
+}
+
+.apresentacao-funcionalidades span{
+    color: white;
+    font-size: 25px;
+}
+
+.apresentacao-funcionalidades p {
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 1.1rem;
+}
+
+.qualidade {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 60px;
+}
+
+.qualidade-item{
+    flex: 1 1 350px;
+    margin: 20px 10px;
+}
+
+.qualidade-item h2{
+    font-size: 2.25em;
+    color: #a4a4a4;
+    margin-bottom: 20px;
+    font-family: 'Open Sans';
+}
+
+.qualidade-item h2::before{
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 30px;
+    margin-right: 10px;
+    background: #5D1AEA;
+}
+
+.qualidade-item p {
+    font-size: 1.25em;
+    line-height: 1.4;
+    color: #7c7c7c;
+    font-family: 'Open Sans';
+}
+
+.venda{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    background: #5D1AEA;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-family: 'Open Sans';
+}
+
+/* .venda-grupo{
+
+} */
+
+.venda span{
+    font-size: 1.5rem;
+    margin: 10px 0;
+    display: block;
+    color: #d4c7e8;
+}
+
+.primeiro-texto{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.segundo-texto{
+    font-size: 1.2rem;
+    color: #d4c7e8;
+}
+
+.venda-lista{
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.venda-botao{
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background: #ED783C;
+    color: white;
+    font-weight: 700;
+}
+
+.venda-licenca {
+    margin: 0 auto;
+}
+
+
+.venda-licenca p{
+    font-size: 3rem;
+    font-weight: 700;
+    border-bottom: 5px solid #ED783C;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contato{
+    background: #5D1AEA;
+    padding: 40px;
+    font-family: 'Open Sans';
+}
+
+.contato-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background: white; */
+}
+
+.contato-texto{
+    flex: 1 1 300px;
+    padding: 30px;
+    background: #ED783C;
+    color: white;
+}
+
+.contato-texto h1{
+    font-size: 2rem;
+    margin: 5px;
+}
+
+.contato-texto p{
+    font-size: 1rem;
+    margin: 5px;
+}
+
+.contato-texto span{
+    font-size: 2rem;
+    margin: 5px;
+    color: white;
+}
+
+.contato-form{
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    background: white;
+    align-items: center;
+    text-align: center;
+}  
+
+.contato-form input{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+    width: 400px;
+}
+
+.contato-form label{
+    display: block;
+    margin: 10px;
+
+}
+
+.contato-form textarea{
+    margin: 10px;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    display: block;
+}
+
+.venda-botao-form{
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    outline: none;
+    border: 0;
+    cursor: pointer;
+    background: #ED783C;
+    color: white;
+    font-weight: 700;
+    margin: 10px 0 10px 10px;
+}
+
+.footer{
+    padding: 30px;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 1.5rem;
+    font-family: 'Open Sans';
+}
+
+/* Works on Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #5D1AEA;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    /* background: #ED783C; */
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: #5D1AEA;
+    /* border-radius: 20px; */
+  }
+
+@media (max-width:800px){
+    .apresentacao-texto {
+        font-size: 2rem;
+    }
+
+    .apresentacao-grupo img {
+        width: 350px;
+    }
+}
+
+@media (max-width:800px){
+    .contato{
+        padding: 10px;
+    }
+}
+
+
+@media (max-width:400px){
+    .apresentacao-texto {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .apresentacao-grupo img {
+        width: 250px;
+    }
+
+    .apresentacao-funcionalidades{
+        margin: 60px 50px 20px 50px;
+        padding: 20px;
+    }
+
+    .qualidade-item h2 {
+        font-size: 1.5rem;
+    }
+    
+    .qualidade-item p {
+        font-size: 1rem;
+    }
+
+    .primeiro-texto{
+        font-size: 1.5rem;
+    }
+    
+    .segundo-texto{
+        font-size: 1rem;
+    }
+
+    .venda-lista ul {
+        margin: 15px;
+    }
+
+    .contato{
+        padding: 10px
+    }
+
+    .contato-texto h1 {
+        font-size: 1.3rem;
+    }
+
+    .contato-form input {
+        margin-top: 5px;
+        width: 300px;
+        margin: 0;
+    }
+
+    .contato-form textarea{
+        width: 200px;
+    }
+}
+
+@media (max-width:350px){
+    .contato-form input {
+        margin-top: 5px;
+        width: 200px;
+    }
+
+    .contato-form textarea{
+        width: 200px;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+
+}
